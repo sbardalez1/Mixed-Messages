@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&display=swap');
+
+* {
+  font-family: 'Atma', cursive;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  border: 1rem;
+  background-color: rgb(0, 0, 0);
+  background-image: url("./images/spaceBackground.jpg");
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 1rem;
+}
+
+#message-input{
+  font-size: 4rem;
+  padding: 5rem;
+}
+
+#message-input button{
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  background-color: black;
+  color:white ;
+}
+
+#message-output{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(190, 206, 254);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(76,134,145,1) 100%);(0,212,255,1) 100%);
+  width: 60%;
+  height: 40%;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  visibility: hidden;
+}
+
